@@ -1,5 +1,5 @@
 //Yulia Novikova 991578236
-//Create eventListener function that triggers text on click
+//Create eventListener function that triggers text on click.
 document.addEventListener("click", function(){
   document.getElementById("p1").innerHTML="A tooth fell out, and left a space" ;
   document.getElementById("p2").innerHTML="So big my tongue could touch my face." ;

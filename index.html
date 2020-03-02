@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--Yulia Novikova 991578236
+This program is to help my daughter, who is loosing her teeth and learning this poem for a school performance.
+Click on a smile, and poem shows up with a tooth image. Point mouse on the tooth to see a next one. When you point on the last tooth, tooth fairy shows up. Point on a tooth fairy for her to pop up. -->
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/javascript.js"></script>
+</head>
+<body>
+	<div id="div">
+		<!--The header and the smile image that should be clicked for the text to show up, and first tooth shows up on mouse over.-->
+		<h1 id="header">My Tooth Fell Out<img id="toothles" src="image/toothles.png" onmouseover ="show('smileTooth')"></h1>
+		<!--The images of the teeth show up and desapear in order one by one-->
+		<img src="image/smileTooth.png"  id="smileTooth" onmouseover="hide('smileTooth'); show('tooth');" style="visibility: hidden;">
+		<p id="p1"></p><p id="p2"></p><br>
+		<img src="image/happyTooth.png" id="tooth" onmouseover="hide('tooth'); show('brokenTooth');"  style="visibility:hidden">
+		<p id="p3"> </p><p id="p4" ></p><br>
+	    <img src="image/brokenTooth.png"id="brokenTooth" onmouseover="hide('brokenTooth'); show('brush');"  style="visibility:hidden">
+	    <p id="p5"> </p><p id="p6"></p>
+		<img src="image/brush.jpg" id="brush" onmouseover= "hide('div'); hide('brush'); show('toothFairy');"  style="visibility:hidden"><br>
+		<p>All images are courtesy of Pixabay</p>
+	</div>
+	<div id="fairy">
+		<!--The fairy image shows up the last and image gets bigger if the the mouse in over the image-->
+		<img src="image/toothFairy.png" id="toothFairy" onmouseover="big(this)" onmouseout="small(this)" style="visibility: hidden">
+	</div>
+</body>
+</html>

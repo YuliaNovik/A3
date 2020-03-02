@@ -1,0 +1,38 @@
+/*Yulia Novikova 991578236*/
+body {
+	text-align: center;
+}
+#div {
+	position: absolute;
+}
+#tooth {
+	height: 70px;
+	width: 55px;
+
+}
+#smileTooth {
+	height: 95px;
+	width: 135px;
+	
+}
+#brokenTooth {
+	height: 85px;
+	width: 110px;
+	
+}
+#brush {
+	height: 130px;
+	width: 150px;
+	
+}
+
+
+}
+#toothFairy {
+	height: 350px;
+	width: 330px;
+}
+#toothles {
+	height: 50px;
+	width: 100px;
+}

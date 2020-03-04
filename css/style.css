@@ -1,6 +1,14 @@
 /*Yulia Novikova 991578236*/
 body {
 	text-align: center;
+	background-image: url(../image/grass.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0 auto;
+    padding-left: 6%;
+	font-family: sans-serif; 
+	color: green;
+	font-weight: bold;
 }
 #div {
 	position: absolute;
@@ -26,8 +34,6 @@ body {
 	
 }
 
-
-}
 #toothFairy {
 	height: 350px;
 	width: 330px;
@@ -35,4 +41,9 @@ body {
 #toothles {
 	height: 50px;
 	width: 100px;
+}
+#mouse {
+	position: absolute;
+	width: 70px;
+	height: 120px;
 }

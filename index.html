@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <!--Yulia Novikova 991578236
-This program is to help my daughter, who is loosing her teeth and learning this poem for a school performance.
+This program is to help my daughter, who is loosing her teeth and learning this poem for a school performance. While navigating through the 
+the poem little fairy follows the cursor untill the tooth fairy at the end shows up.
 Click on a smile, and poem shows up with a tooth image. Point mouse on the tooth to see a next one. When you point on the last tooth, tooth fairy shows up. Point on a tooth fairy for her to pop up. -->
 <html>
 <head>
@@ -9,6 +10,7 @@ Click on a smile, and poem shows up with a tooth image. Point mouse on the tooth
 	<script type="text/javascript" src="js/javascript.js"></script>
 </head>
 <body>
+
 	<div id="div">
 		<!--The header and the smile image that should be clicked for the text to show up, and first tooth shows up on mouse over.-->
 		<h1 id="header">My Tooth Fell Out<img id="toothles" src="image/toothles.png" onmouseover ="show('smileTooth')"></h1>
@@ -20,7 +22,8 @@ Click on a smile, and poem shows up with a tooth image. Point mouse on the tooth
 	    <img src="image/brokenTooth.png"id="brokenTooth" onmouseover="hide('brokenTooth'); show('brush');"  style="visibility:hidden">
 	    <p id="p5"> </p><p id="p6"></p>
 		<img src="image/brush.jpg" id="brush" onmouseover= "hide('div'); hide('brush'); show('toothFairy');"  style="visibility:hidden"><br>
-		<p>All images are courtesy of Pixabay</p>
+		<a href="https://pixabay.com/">All pictures are curtesy of pixabay.com</a>
+		<img id="mouse" src="image/fairy.gif">
 	</div>
 	<div id="fairy">
 		<!--The fairy image shows up the last and image gets bigger if the the mouse in over the image-->

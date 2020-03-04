@@ -20,8 +20,8 @@ function show(id){
 }
 //This function makes faity inamge bidder
 function big(x){
-x.style.height= "650px";
-	x.style.width= "630px";
+   x.style.height= "650px";
+   x.style.width= "630px";
 }
 //This image makes fairy image smaller
 function small(x){
@@ -29,6 +29,15 @@ function small(x){
 	x.style.width= "330px";
 }
 
+
+
+    window.onload=function(){
+    	var fairy = document.getElementById("mouse");
+    	window.onmousemove=function(e){
+    		mouse.style.left=e.clientX+"px";
+    		mouse.style.top=e.clientY+"px";
+    	}
+    }
 
 
 
